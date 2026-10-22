@@ -9,6 +9,18 @@ const modalDescription = document.querySelector('.modal-description');
 const modalClose = document.querySelector('.modal-close');
 const modalBackdrop = document.querySelector('.modal-backdrop');
 
+document.body.classList.add('js-ready');
+
+const revealObserver = new IntersectionObserver((entries, observer) => {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) return;
+    entry.target.classList.add('is-visible');
+    observer.unobserve(entry.target);
+  });
+}, { threshold: 0.12 });
+
+document.querySelectorAll('[data-reveal]').forEach((section) => revealObserver.observe(section));
+
 menuToggle.addEventListener('click', () => {
   const isOpen = mainNav.classList.toggle('is-open');
   menuToggle.setAttribute('aria-expanded', String(isOpen));

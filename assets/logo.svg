@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Ercan Optik</title>
+  <desc id="desc">Ercan Optik 2018 turuncu logo</desc>
+  <circle cx="250" cy="250" r="247" fill="#ff8127"/>
+  <circle cx="250" cy="250" r="205" fill="none" stroke="#fff" stroke-width="5"/>
+  <text x="250" y="155" text-anchor="middle" fill="#fff" font-family="Georgia, serif" font-size="57" letter-spacing="13">ERCAN</text>
+  <text x="250" y="286" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="103" font-weight="800" letter-spacing="7">OPTİK</text>
+  <g fill="none" stroke="#fff" stroke-width="5">
+    <path d="M133 340c2-36 28-54 59-54s57 18 59 54c2 34-22 61-59 61s-61-27-59-61Z"/>
+    <path d="M249 340c2-36 28-54 59-54s57 18 59 54c2 34-22 61-59 61s-61-27-59-61Z"/>
+    <path d="M251 345c-5-8-10-11-18-11"/>
+    <path d="M133 346h-13M367 346h13"/>
+  </g>
+  <text x="250" y="433" text-anchor="middle" fill="#fff" font-family="Georgia, serif" font-size="38">2018</text>
+</svg>
